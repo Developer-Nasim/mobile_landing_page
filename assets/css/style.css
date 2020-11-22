@@ -1,0 +1,720 @@
+/*   Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; 
+  color: #4e5258;
+  font-size: 17px; 
+  line-height: 30px;
+  position: relative;
+}
+ 
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+ 
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif; 
+  color: #24282e;
+  margin-top: 0px; 
+  font-weight: 700; 
+ }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+ 
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  list-style: none;
+}
+.pl-65 {
+  padding-left: 55px;
+}
+.pr-65 {
+  padding-right: 55px;
+}
+ 
+
+
+/* default-css END 
+================================== */
+
+
+
+/* preloader css here */
+div#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+/* preloader css here */
+
+
+
+.Horizontal-lines {
+  position: absolute;
+  width: 72%;
+  height: 100%;
+  border-left: 1px solid #F2F1F1;
+  border-right: 1px solid #F2F1F1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.Horizontal-lines:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #F2F1F1;
+  left: 10%;
+}
+.Horizontal-lines:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #F2F1F1;
+  right: 10%;
+}
+.Horizontal-lines div {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #F2F1F1; 
+  top: 0;
+}
+.Horizontal-lines  .line-two {
+  left: 20%;
+}
+
+.Horizontal-lines .line-three {
+  left: 30%;
+}
+.Horizontal-lines .line-four {
+  left: 40%;
+}
+.Horizontal-lines .line-five {
+  left: 50%;
+}
+.Horizontal-lines .line-six {
+  left: 60%;
+}
+.Horizontal-lines .line-seven {
+  left: 70%;
+}
+.Horizontal-lines .line-eight {
+  left: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-area {
+  position: relative;
+  height: 965px;
+  display: flex;
+  align-items: center;
+}
+.hero-area img.background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.hero-wrp a.logo {
+  display: block;
+  margin-bottom: 75px;
+}
+.hero-wrp h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 90px;
+}
+.hero-wrp ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.hero-wrp ul li a {
+  display: block;
+}
+
+.hero-wrp img.snp {
+  position: absolute;
+  top: 52%;
+  left: -100px;
+  transform: translateY(-50%);
+}
+
+.hero-img {
+  margin-left: 60px;
+}
+.calls-area p.title.right-stl.mr:after {
+  right: auto;
+  left: -8px;
+}
+.track-feature p.title.right-stl.mr:after {
+  right: auto;
+  left: -6px;
+}
+
+
+/*===================================================
+                                    Hero-area css END 
+ ====================================================*/
+
+
+
+
+.features-areas {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.feature-blk.first-blk .featuure-img {
+  left: -80px;
+}
+.featuure-img {
+  position: relative;
+}
+.features-areas img.snape {
+  position: absolute;
+  right: 0;
+  top: 24%;
+  height: 240px;
+}
+
+.features-areas img.snape2 {
+  position: absolute;
+  top: 57%;
+  left: -40px;
+  transform: rotate(94deg);
+  height: 240px;
+}
+
+.features-areas img.snape3 {
+  position: absolute;
+  bottom: 4%;
+  right: 5%;
+  height: 240px;
+}
+.featuure-img img.snape {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+ p.title {
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin-bottom: 50px !important;
+  line-height: 65px;
+  background: #F0F2F5;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  font-size: 24px;
+  color: #8e9aac;
+  font-weight: 700;
+}
+p.title:after {content: "";position: absolute;width: 20px;height: 20px;background: #f0f2f5;border-radius: 50%;left: -8px;top: -2px;}
+
+.feature-wrp h2 {
+  font-size: 40px;
+  line-height: 56px;
+  margin-bottom: 40px;
+}
+
+.feature-wrp p {
+  margin: 0;
+}
+
+.feature-wrp p span {
+  display: block;
+  width: 85px;
+  height: 5px;
+  background: #FF5C5C;
+  border-radius: 50px;
+  margin-top: 65px;
+}
+
+p.title.right-stl:after {
+  left: auto;
+  right: -7px;
+}
+.feature-blk.two .featuure-img img:first-child {
+  margin-left: -35px;
+}
+.feature-blk.three .featuure-img img.snape {
+  transform: translateY(-50%) rotate(41deg);
+  right: 15px;
+}
+
+
+
+
+
+/*===================================================
+                                feature-area css END 
+ ====================================================*/
+
+ 
+
+
+ .smart-way {
+  position: relative;
+}
+
+.smart-way img.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.smart-way .s-img {
+  margin-top: 25px;
+  position: relative;
+  top: 1px;
+}
+.smart-wrp h2{
+  color: #fff;
+}
+.smart-wrp p{
+  color: #fff;
+}
+.smart-wrp p.title.right-stl {
+  background: #FF7070;
+  color: #fff;
+}
+
+.smart-wrp p.title.right-stl:after {
+  background: #ff7070;
+}
+.smart-wrp p span {
+  background: #fff;
+}
+.section-title.feature-wrp p.title {
+  margin: auto;
+}
+
+.section-title.feature-wrp p span {
+  margin: auto;
+  margin-top: 60px;
+}
+.screens {
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+/*===================================================
+                                    Smart-way css END 
+ ====================================================*/
+
+
+
+
+
+
+.collection-area {
+  margin-top: 80px;
+}
+
+
+
+
+
+/*===================================================
+                                    Smart-way css END 
+ ====================================================*/
+
+ .contracts-area {
+  position: relative;
+  padding: 93px 0;
+}
+.contracts-area img.snape {
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  top: -72px;
+  height: 745px;
+}
+.contracts-area img.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+.contracts-wrp.feature-wrp {
+  padding-right: 50px;
+}
+.contracts-area .s-img {
+  margin-top: 25px;
+}
+.contracts-wrp h2{
+  color: #fff;
+}
+.contracts-wrp p{
+  color: #fff;
+}
+.contracts-wrp.feature-wrp p.title.right-stl {
+  background: #41454D;
+}
+
+.contracts-wrp.feature-wrp p.title.right-stl:after {
+  background: #41454d;
+}
+.contracts-wrp p span {
+  background: #fff;
+}
+.section-title.feature-wrp p.title {
+  margin: auto;
+  margin-bottom: 22px !IMPORTANT;
+}
+.collection-area .feature-wrp h2 { 
+  margin-bottom: 22px;
+}
+.section-title.feature-wrp p span {
+  margin: auto;
+  margin-top: 60px;
+}
+.screens {
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+/*===================================================
+                                contracts-area css END 
+ ====================================================*/
+
+ 
+
+
+ .calls-area img.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.calls-area {
+  position: relative;
+  overflow: hidden;
+  padding-top: 120px;
+} 
+.calls-area .feature-wrp {
+  padding-top: 120px;
+  padding-left: 70px;
+}
+.calls-area .feature-wrp p.title.right-stl {
+  background: #E4E7EA;
+}
+
+.calls-area .feature-wrp p.title.right-stl:after {
+  background: #E4E7EA;
+}
+.calls-area img.snape {
+  position: absolute;
+  z-index: 2;
+  right: -210px;
+  bottom: 55px;
+  width: 470px;
+}
+.call-feature {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.call-feature img.snape {
+  position: absolute;
+  bottom: 9%;
+  left: -40px;
+  transform: rotate(95deg);
+  width: 210px;
+}
+.call-feature.feature-blk.two .feature-wrp {
+  padding-right: 92px;
+}
+.track-feature {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  background: #fefefe;
+}
+.track-feature img.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.track-feature p.title.right-stl {
+  background: #e5e8eb;
+  margin-bottom: 40px !IMPORTANT;
+}
+
+.track-feature p.title.right-stl:after {
+  background: #e5e8eb;
+}
+
+.track-feature h2 {
+  margin-bottom: 30px;
+}
+
+
+
+/*===================================================
+                               Calls-area css END 
+ ====================================================*/
+
+
+
+ 
+
+ .footer {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 170px;
+  padding-top: 50px;
+  background: #fff;
+  z-index: 2;
+}
+.footer .circle-animation {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -400px;
+  z-index: -1;
+}
+.footer-inner ul li {
+  display: inline-block; 
+}
+.footer-inner ul li a.first {
+  margin-right: 20px;
+}
+.footer-inner ul li a {
+  display: inline-block;
+}
+
+.footer-inner ul {
+  margin-top: 40px;
+}
+
+
+
+
+
+/*===================================================
+                                Footer css END 
+ ====================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circle-animation {
+  height: 800px;
+  width: 800px; 
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+}
+.circle-one {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transform: scale(1);
+  box-shadow: 0px 0px 110px -60px #00000047;
+  border: 1px solid #00000026;
+  animation: aniOne 3s linear infinite; 
+}
+.circle-two {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transform: scale(.8);
+  box-shadow: 0px 0px 110px -60px #00000047;
+  border: 1px solid #00000026;
+  animation: aniTwo 3s linear infinite;
+  animation-delay: .3s;
+}
+.circle-three {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transform: scale(.6);
+  box-shadow: 0px 0px 110px -60px #00000047;
+  border: 1px solid #00000026;
+  animation: aniThree 3s linear infinite;
+  animation-delay: .6s;
+}
+.circle-four {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transform: scale(.3);
+  box-shadow: 0px 0px 110px -60px #00000047;
+  border: 1px solid #00000026;
+  animation: aniFour 3s linear infinite;
+  animation-delay: 9s;
+}
+.circle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(.3);
+  background-color: rgb( 245, 94, 93 );
+  box-shadow:0px 27px 79px 0px rgba(198, 101, 96, 0.38);
+} 
+
+
+
+@keyframes aniOne{
+  0%{
+    opacity: 1;
+    transform: scale(.3);
+  } 
+  100%{
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+@keyframes aniTwo{
+  0%{
+    opacity: 1;
+    transform: scale(.3);
+  } 
+  100%{
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+@keyframes aniThree{
+  0%{
+    opacity: 1;
+    transform: scale(.3);
+  } 
+  100%{
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+@keyframes aniFour{
+  0%{
+    opacity: 1;
+    transform: scale(.3);
+  } 
+  100%{
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

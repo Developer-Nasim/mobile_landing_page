@@ -1,0 +1,534 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1919px) {
+    .calls-area img.snape { 
+        z-index: -1;
+    }
+    .smart-way .s-img img {
+        width: 100%;
+    }
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-area { 
+        height: 740px; 
+    }
+    .screens img {
+        width: 100%; 
+    }
+    .hero-img {
+        margin-left: 0px;
+    }
+    .hero-img img{
+        width: 100%;
+    }
+    .hero-wrp h1 {
+        font-size: 44px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 65px;
+    }
+    .screens img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .hero-wrp ul li a img {
+        width: 100%;
+    }
+    
+    .hero-wrp ul li {
+        width: 150px;
+    }
+    .featuure-img { 
+        left: 0 !important;
+    }
+    .featuure-img img {
+        width: 100%;
+    }
+    p.title { 
+        margin-bottom: 30px !important; 
+        font-size: 22px; 
+    }
+    .feature-wrp h2 {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    body{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .feature-wrp p span { 
+        margin-top: 40px;
+    }
+    .smart-way .s-img img {
+        width: 100%;
+    }
+    .contracts-area img.snape { 
+        top: auto;
+        bottom: 0px;
+        height: auto;
+        width: 60%;
+    }
+    .calls-area { 
+        padding-top: 0px;
+        padding-bottom: 90px;
+    }
+
+    .demo-img img {
+        width: 100%;
+    }
+    .calls-area .feature-wrp {
+        padding-top: 80px;
+        padding-left: 0px;
+    }
+    .demo-img {
+        position: relative;
+        top: 90px;
+    }
+    .calls-area img.snape { 
+        z-index: -1; 
+    }
+    .call-feature.feature-blk.two .feature-wrp {
+        padding-right: 0px;
+    }
+    .call-feature { 
+        padding-top: 65px; 
+    }
+
+    .feature-wrp.pl-65{
+        padding-left: 0px;
+    }
+    .track-feature img.background { 
+        height: 100%; 
+    }
+    .contracts-area img.background { 
+        object-position: center;
+    }
+    .hero-wrp img.snp { 
+        left: -60px; 
+    }
+
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .Horizontal-lines { 
+        width: 90%; 
+    }
+    .hero-area {
+        height: unset;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    .screens img {
+        width: 100%; 
+    }
+    .hero-img {
+        margin-left: 0px;
+    }
+    .hero-img img {
+        height: 649px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .hero-wrp h1 {
+        font-size: 44px; 
+        margin-bottom: 40px;
+    }
+    .hero-wrp {
+        text-align: center;
+    }
+    
+    .hero-wrp a.logo {
+        margin-bottom: 30px;
+    }
+     
+    .screens img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .hero-wrp ul li a img {
+        width: 100%;
+    }
+    
+    .hero-wrp ul li {
+        width: 150px;
+    }
+    .featuure-img {
+        left: 0 !important;
+        text-align: center;
+    }
+    .featuure-img img {
+        width: auto;
+        height: 570px;
+    }
+    p.title { 
+        margin-bottom: 30px !important; 
+        font-size: 22px; 
+    }
+    .feature-wrp h2 {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 20px; 
+    }
+    .calls-area .feature-wrp h2 { 
+        color: #fff;
+    }
+    .calls-area .feature-wrp p { 
+        color: #fff;
+    }
+    .calls-area .feature-wrp p span { 
+        background-color: #fff;
+    }
+    body{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .feature-wrp p span { 
+        margin-top: 40px;
+    }
+    .smart-way .s-img img {
+        width: 100%;
+    }
+    .contracts-area img.snape { 
+        display: none;
+    }
+    .calls-area { 
+        padding-top: 0px;
+        padding-bottom: 90px;
+    }
+
+    .demo-img img {
+        width: 100%;
+    }
+    .calls-area .feature-wrp {
+        padding-top: 80px;
+        padding-left: 0px;
+    }
+    .demo-img {
+        position: relative;
+        top: 90px;
+    }
+    .calls-area img.snape { 
+        z-index: -1; 
+    }
+    .call-feature.feature-blk.two .feature-wrp {
+        padding-right: 0px;
+    }
+    .call-feature { 
+        padding-top: 65px; 
+        padding-bottom: 0px;
+    }
+    .feature-wrp.pl-65 {
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+    .track-feature img.background { 
+        height: 100%; 
+        object-position: right;
+    }
+    .track-feature { 
+        padding-top: 40px;
+        padding-bottom: 0px; 
+    }
+    .contracts-area img.background {
+        object-position: left;
+    }
+    .hero-area img.background-img { 
+        object-position: right;
+    } 
+    .smart-way { 
+        padding-top: 90px;
+    }
+    .section-title.feature-wrp p span { 
+        margin-top: 40px;
+    }
+    .screens { 
+        margin-bottom: 30px;
+    }
+    .calls-area img.background { 
+        object-position: left;
+    }
+    .calls-area .feature-wrp p.title.right-stl {
+        background: #41454d;
+    }
+    .calls-area .feature-wrp p.title.right-stl:after {
+        background: #41454d;
+    } 
+    .footer { 
+        padding-top: 100px; 
+    }
+
+    div#preloader img {
+        width: 450px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .Horizontal-lines { 
+        width: 90%; 
+        opacity: .6;
+    }
+    .hero-area {
+        height: unset;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+    .screens img {
+        width: 100%; 
+    }
+    .hero-img {
+        margin-left: 0px;
+    }
+    .hero-img img {
+        height: 290px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .hero-wrp h1 {
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+    .hero-wrp {
+        text-align: center;
+    }
+    
+    .hero-wrp a.logo {
+        margin-bottom: 20px;
+    }
+    .hero-wrp a.logo img {
+        width: 140px;
+    }
+    .features-areas {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .screens img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .hero-wrp ul li a img {
+        width: 100%;
+    }
+    
+    .hero-wrp ul li {
+        width: 120px;
+    }
+    .featuure-img {
+        left: 0 !important;
+        text-align: center;
+    }
+    .featuure-img img {
+        width: 90%; 
+    } 
+    p.title {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px !important;
+        line-height: 50px; 
+        font-size: 20px; 
+    }
+    p.title:after { 
+        width: 15px;
+        height: 15px; 
+        left: -5px;
+        top: -2px;
+    }
+    .feature-wrp h2 {
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 15px;
+    }
+    .calls-area .feature-wrp h2 { 
+        color: #fff;
+    }
+    .calls-area .feature-wrp p { 
+        color: #fff;
+    }
+    .calls-area .feature-wrp p span { 
+        background-color: #fff;
+    }
+    body {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .feature-wrp p span { 
+        margin-top: 30px;
+    }
+    .smart-way .s-img img {
+        width: 100%;
+    } 
+    .contracts-area img.snape {
+        position: unset;
+        z-index: 2;
+        right: 0px;
+        top: -68px;
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .calls-area { 
+        padding-top: 0px;
+        padding-bottom: 90px;
+    }
+
+    .demo-img img {
+        width: 100%;
+    }
+    .calls-area .feature-wrp {
+        padding-top: 55px;
+        padding-left: 0px;
+    }
+    .demo-img {
+        position: relative;
+        top: 90px;
+    }
+    .calls-area img.snape { 
+        z-index: -1; 
+    }
+    .call-feature.feature-blk.two .feature-wrp {
+        padding-right: 0px;
+    }
+    .call-feature {
+        padding-top: 50px;
+        padding-bottom: 5px;
+    }
+    .feature-wrp.pl-65 {
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+    .track-feature img.background { 
+        height: 100%; 
+        object-position: right;
+    }
+    .track-feature {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .contracts-area img.background {
+        object-position: left;
+    }
+    .hero-area img.background-img { 
+        object-position: right;
+    } 
+    .smart-way {
+        padding-top: 55px;
+    }
+    .section-title.feature-wrp p span { 
+        margin-top: 40px;
+    }
+    .screens { 
+        margin-bottom: 30px;
+    }
+    .calls-area img.background { 
+        object-position: left;
+    }
+    .calls-area .feature-wrp p.title.right-stl {
+        background: #41454d;
+    }
+    .calls-area .feature-wrp p.title.right-stl:after {
+        background: #41454d;
+    } 
+    .footer { 
+        padding-top: 35px;
+        padding-bottom: 80px; 
+    }
+    .feature-blk.two .featuure-img img:first-child {
+        margin-left: 0px;
+    }
+    .pl-65{
+        padding-left: 0px;
+    }
+    .pr-65{
+        padding-right: 0px;
+    }
+    .smart-wrp p.title.right-stl {
+        background: #ff8e8e;
+        color: #fff;
+    }
+    .smart-wrp p.title.right-stl:after {
+        background: #ff8e8e; 
+    }
+    .collection-area {
+        margin-top: 40px;
+    }
+    .collection-area .feature-wrp h2 {
+        margin-bottom: 15px;
+    }
+    .contracts-wrp.feature-wrp {
+        padding-right: 0px;
+    } 
+    p.title.right-stl:after {
+        left: auto;
+        right: -4px;
+    }
+    .contracts-area { 
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .call-feature.feature-blk.two .featuure-img {
+        margin-top: 25px;
+    } 
+    .call-feature.feature-blk.two .featuure-img {
+        margin-top: 25px;
+    } 
+    .footer-inner a img {
+        width: 100px;
+    } 
+    .footer-inner ul {
+        margin-top: 20px;
+    }
+    .footer .circle-animation { 
+        transform: translate(-50%) scale(.5); 
+    }
+    div#preloader img {
+        width: 250px;
+    }
+
+    .calls-area p.title.right-stl.mr:after {
+        right: auto;
+        left: -4px;
+    }
+
+
+
+
+
+    
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
